@@ -49,17 +49,16 @@
     ];
     shellAliases = {
       neofetch = "fastfetch";
-      ls = "eza --icons=auto";
-      ll = "ls -l";
-      cd = "z";
-      update = "sudo nixos-rebuild switch --flake /etc/nixos/#default --impure --upgrade";
-      rimworld = "steam-run ~/GOG\ Games/RimWorld/start.sh";
+      ls = "lsd";
+      ll = "lsd -l";
+      lgit = "lazygit";
       cat = "bat";
+      vim = "nvim";
+      update = "sudo nixos-rebuild switch --flake /etc/nixos/#default --impure --upgrade";
       grep = "rg";
       grepa = "rga";
       find = "fd";
       diff = "delta";
-      runic = "julia --project=@runic -e 'using Runic; exit(Runic.main(ARGS))' --";
     };
   };
 }
