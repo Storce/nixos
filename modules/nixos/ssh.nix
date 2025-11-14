@@ -5,7 +5,7 @@
     openFirewall = true;
     startWhenNeeded = true;
     settings = {
-      PasswordAuthentication = true;
+      PasswordAuthentication = false;
       AllowUsers = null;
       UseDns = true;
       X11Forwarding = false;
