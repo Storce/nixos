@@ -75,6 +75,8 @@ in {
     delta
     qt6Packages.qtwayland
     qt6.qtwayland
+    lazygit
+    lsd
 
     # General Software
     qbittorrent
