@@ -12,7 +12,7 @@
     enable = true;
     # catppuccin.enable = true;
     settings = {
-      input.kb_layout = "br";
+      input.kb_layout = "us";
       input.touchpad.natural_scroll = true;
 
       general = {
