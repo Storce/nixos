@@ -58,7 +58,7 @@
           home-manager.extraSpecialArgs = {inherit inputs;};
           # home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.minze = import ./desktop/home.nix;
+          home-manager.users.storce = import ./desktop/home.nix;
           home-manager.sharedModules = [
             nixcord.homeModules.nixcord
             stylix.homeModules.stylix
@@ -89,7 +89,7 @@
           home-manager.extraSpecialArgs = {inherit inputs;};
           # home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.minze = import ./laptop/home.nix;
+          home-manager.users.storce = import ./laptop/home.nix;
           home-manager.backupFileExtension = "bkphm";
           home-manager.sharedModules = [
             nixcord.homeModules.nixcord
