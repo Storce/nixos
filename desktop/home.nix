@@ -36,8 +36,8 @@ in {
     ../modules/home-manager/minshell.nix
   ];
 
-  home.username = "minze";
-  home.homeDirectory = "/home/minze";
+  home.username = "storce";
+  home.homeDirectory = "/home/storce";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
