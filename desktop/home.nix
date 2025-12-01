@@ -34,6 +34,7 @@ in {
     # ../modules/home-manager/dunst.nix
     # ../modules/home-manager/hyprpanel.nix
     ../modules/home-manager/minshell.nix
+    ../modules/scripts/scripts.nix
   ];
 
   home.username = "storce";
