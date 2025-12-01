@@ -31,6 +31,7 @@ in {
     ../modules/home-manager/stylix.nix
     ../modules/home-manager/zen-browser.nix
     ../modules/home-manager/nixcord.nix
+    ../modules/home-manager/chrome.nix
     # ../modules/home-manager/dunst.nix
     # ../modules/home-manager/hyprpanel.nix
     ../modules/home-manager/minshell.nix
