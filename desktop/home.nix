@@ -22,7 +22,7 @@ in {
   # Home Manager needs a bit of information about you and the paths it should
   # manager
   imports = [
-    ../modules/home-manager/hyprland.nix
+    ../modules/home-manager/hyprland/hyprland.nix
     ../modules/home-manager/zsh.nix
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty.nix
@@ -34,7 +34,7 @@ in {
     # ../modules/home-manager/dunst.nix
     # ../modules/home-manager/hyprpanel.nix
     ../modules/home-manager/minshell.nix
-    ../modules/scripts/scripts.nix
+    ../modules/home-manager/scripts/scripts.nix
   ];
 
   home.username = "storce";
