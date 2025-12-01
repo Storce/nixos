@@ -1,8 +1,8 @@
 {pkgs, ...}: {
   programs.git = {
     enable = true;
-    userName = "Gustavo Garone";
-    userEmail = "gustavogarone@protonmail.com";
+    userName = "storce";
+    userEmail = "zezhou_wang@berkeley.edu";
   };
   home.packages = with pkgs; [
     gh
