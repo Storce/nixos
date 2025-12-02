@@ -130,15 +130,15 @@ in {
   services.logmein-hamachi.enable = true;
 
   # Stylix theming
-  stylix = {
-    enable = true;
-    #base16Scheme = "${pkgs.base16-schemes}/share/themes/chalk.yaml";
-    autoEnable = true;
+  #stylix = {
+  #  enable = true;
+  #  base16Scheme = "${pkgs.base16-schemes}/share/themes/kanagawa.yaml";
+  #  autoEnable = true;
     # image = ~/wallpapers/nitwcitynight.jpg;
     # polarity = "dark";
-    homeManagerIntegration.autoImport = false;
-    homeManagerIntegration.followSystem = true;
-  };
+  #  homeManagerIntegration.autoImport = false;
+  #  homeManagerIntegration.followSystem = true;
+  #};
 
   # ZSH Shell
   # programs.zsh.enable = true;
