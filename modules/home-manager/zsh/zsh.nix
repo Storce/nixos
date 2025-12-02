@@ -14,9 +14,17 @@
       find = "fd";
       diff = "delta";
     };
+
     initContent = ''
       bindkey "^R" history-incremental-search-backward
+      source jssha personal
     '';
+
     enableCompletion = true;
+
+    oh-my-zsh = {
+      enable = true;
+      theme = "./storce-custom.zsh-theme";
+    };
   };
 }

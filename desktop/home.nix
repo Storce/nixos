@@ -23,7 +23,6 @@ in {
   # manager
   imports = [
     ../modules/home-manager/hyprland/hyprland.nix
-    ../modules/home-manager/zsh.nix
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty.nix
     ../modules/home-manager/rofi.nix
@@ -34,6 +33,7 @@ in {
     # ../modules/home-manager/dunst.nix
     # ../modules/home-manager/hyprpanel.nix
     ../modules/home-manager/minshell.nix
+    ../modules/home-manager/zsh/zsh.nix
     ../modules/home-manager/scripts/scripts.nix
   ];
 
