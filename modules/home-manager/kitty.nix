@@ -7,5 +7,6 @@
       cursor_trail_start_threshold = 0;
       font_size = 10.5;
     };
+    themeFile = "kanagawa";
   };
 }
