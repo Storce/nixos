@@ -79,6 +79,7 @@ in {
     lazygit
     lsd
     comma
+    xclip
 
     # General Software
     qbittorrent
