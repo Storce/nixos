@@ -2,7 +2,9 @@
   lib,
   pkgs,
   ...
-}: {
+}: let
+  currentWallpaper = "cartoon-room.jpg";
+in {
   # Home module hyprland config
   wayland.windowManager.hyprland = {
     # Tell NixOS to use system packages instead of home manager packes for portal
@@ -156,7 +158,7 @@
         # "~/wallpapers/everforest.jpg"
         # "~/wallpapers/evererforest.jpg"
         # "~/wallpapers/NITWgreggrulzok.jpg"
-        "./wallpapers/kanagawa.jpg"
+        "./wallpapers/${currentWallpaper}"
         # "~/wallpapers/nitwwitchdaggah.jpg"
         # "~/wallpapers/greggroof.jpg"
       ];
@@ -171,7 +173,7 @@
         # "eDP-1, ~/wallpapers/evererforest.jpg"
         # "eDP-1, ~/wallpapers/NITWgreggrulzok.jpg"
         # "eDP-1, ~/wallpapers/greggroof.jpg"
-        "eDP-1, ./wallpapers/kanagawa.jpg"
+        "eDP-1, ./wallpapers/${currentWallpaper}"
         # "eDP-1, ~/wallpapers/nitwwitchdaggah.jpg"
         # "HDMI-A-1,~/wallpapers/ruin.jpg"
         # "HDMI-A-1,~/wallpapers/mimir.jpg"
@@ -182,7 +184,7 @@
         # "HDMI-A-1, ~/wallpapers/evererforest.jpg"
         # "HDMI-A-1, ~/wallpapers/NITWgreggrulzok.jpg"
         # "HDMI-A-1, ~/wallpapers/greggroof.jpg"
-        "HDMI-A-1, ./wallpapers/kanagawa.jpg"
+        "HDMI-A-1, ./wallpapers/${currentWallpaper}"
         # "HMDI-A-1, ~/wallpapers/nitwwitchdaggah.jpg"
       ];
     };
