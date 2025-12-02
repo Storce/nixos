@@ -22,12 +22,12 @@ in {
   # Home Manager needs a bit of information about you and the paths it should
   # manager
   imports = [
-    ../modules/home-manager/graphical/hyprland.nix
+    ../modules/home-manager/hyprland/hyprland.nix
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty/kitty.nix
     ../modules/home-manager/rofi.nix
     ../modules/home-manager/gammastep.nix
-    ../modules/home-manager/graphical/stylix.nix
+    ../modules/home-manager/stylix.nix
     ../modules/home-manager/firefox.nix
     ../modules/home-manager/nixcord.nix
     # ../modules/home-manager/dunst.nix

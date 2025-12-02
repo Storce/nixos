@@ -1,7 +1,0 @@
-More skill issue moment! The kitty.conf being built has the default theme
-appended after my desired theme. I don't know why, and I don't want to spend
-time figure out why. So...
-
-I am just appending ANOTHER include statement pointing to this directory with
-the Kanagawa config. Yes this is cursed, yes yet another hard-coded path. But
-what can I do. Im dumb.
