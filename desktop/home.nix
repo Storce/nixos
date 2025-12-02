@@ -78,6 +78,7 @@ in {
     qt6.qtwayland
     lazygit
     lsd
+    comma
 
     # General Software
     qbittorrent
@@ -105,6 +106,7 @@ in {
     pavucontrol
     librewolf
     hyprpicker
+    spotify
 
     # TODO: add separate files for different programing languages if you want
     # them in the system instead of dev envs.
