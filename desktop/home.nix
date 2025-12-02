@@ -24,7 +24,7 @@ in {
   imports = [
     ../modules/home-manager/hyprland/hyprland.nix
     ../modules/home-manager/git.nix
-    ../modules/home-manager/kitty.nix
+    ../modules/home-manager/kitty/kitty.nix
     ../modules/home-manager/rofi.nix
     ../modules/home-manager/gammastep.nix
     ../modules/home-manager/stylix.nix
