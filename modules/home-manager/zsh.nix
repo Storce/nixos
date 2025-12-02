@@ -14,9 +14,9 @@
       find = "fd";
       diff = "delta";
     };
-    promptInit = ''
-      bindkey "^R" history-incremental-search-backward 
-    ''
+    initContent = ''
+      bindkey "^R" history-incremental-search-backward
+    '';
     enableCompletion = true;
   };
 }
