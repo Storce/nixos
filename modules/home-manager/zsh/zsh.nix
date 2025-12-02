@@ -17,14 +17,18 @@
 
     initContent = ''
       bindkey "^R" history-incremental-search-backward
-      source jssha personal
+      source jssha personal >> /dev/null
+      clear
+      echo "Welcome Back"
     '';
 
     enableCompletion = true;
 
     oh-my-zsh = {
       enable = true;
-      theme = "./storce-custom.zsh-theme";
+      custom = "$HOME/nixos/modules/home-manager/zsh";
+      theme = "storce-custom";
+      plugins = ["git" "sudo"];
     };
   };
 }
