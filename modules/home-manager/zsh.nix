@@ -8,11 +8,15 @@
       lgit = "lazygit";
       cat = "bat";
       vim = "nvim";
-      update = "sudo nixos-rebuild switch --flake /etc/nixos/#default --impure --upgrade";
+      update = "sudo nixos-rebuild switch --flake $HOME/nixos#desktop";
       grep = "rg";
       grepa = "rga";
       find = "fd";
       diff = "delta";
     };
+    promptInit = ''
+      bindkey "^R" history-incremental-search-backward 
+    ''
+    enableCompletion = true;
   };
 }
