@@ -13,8 +13,8 @@
 in {
   stylix = {
     enable = true;
-    # image = ~/wallpapers/nitwcitynight.jpg;
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/chalk.yaml";
+    image = ../wallpapers/cartoon-mars.jpg;
+    # base16Scheme = "${pkgs.base16-schemes}/share/themes/chalk.yaml";
     # polarity = "dark";
     cursor = {
       package = pkgs.bibata-cursors;

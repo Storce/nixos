@@ -59,7 +59,7 @@
       ];
       bind =
         [
-          "$mod, a, exec, rofi -show drun -show-icons"
+          "$ALT, SPACE, exec, rofi -show drun -show-icons"
           "$mod, x, exec, rofi -show power-menu -modi power-menu:rofi-power-menu"
           "$mod, i, exec, rofi -show emoji -modi emoji"
           "$mod SHIFT, M, exec, pkill Hyprland"
@@ -156,7 +156,7 @@
         # "~/wallpapers/everforest.jpg"
         # "~/wallpapers/evererforest.jpg"
         # "~/wallpapers/NITWgreggrulzok.jpg"
-        "./wallpapers/cartoon-mars.jpg"
+        "../wallpapers/cartoon-mars.jpg"
         # "~/wallpapers/nitwwitchdaggah.jpg"
         # "~/wallpapers/greggroof.jpg"
       ];
@@ -171,7 +171,7 @@
         # "eDP-1, ~/wallpapers/evererforest.jpg"
         # "eDP-1, ~/wallpapers/NITWgreggrulzok.jpg"
         # "eDP-1, ~/wallpapers/greggroof.jpg"
-        "eDP-1, ./wallpapers/cartoon-mars.jpg"
+        "eDP-1, ../wallpapers/cartoon-mars.jpg"
         # "eDP-1, ~/wallpapers/nitwwitchdaggah.jpg"
         # "HDMI-A-1,~/wallpapers/ruin.jpg"
         # "HDMI-A-1,~/wallpapers/mimir.jpg"
@@ -182,7 +182,7 @@
         # "HDMI-A-1, ~/wallpapers/evererforest.jpg"
         # "HDMI-A-1, ~/wallpapers/NITWgreggrulzok.jpg"
         # "HDMI-A-1, ~/wallpapers/greggroof.jpg"
-        "HDMI-A-1, ./wallpapers/cartoon-mars.jpg"
+        "HDMI-A-1, ../wallpapers/cartoon-mars.jpg"
         # "HMDI-A-1, ~/wallpapers/nitwwitchdaggah.jpg"
       ];
     };
